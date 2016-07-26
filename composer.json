@@ -1,0 +1,20 @@
+{
+  "name": "geggleto/rest-actions",
+  "description": "REST API Action classes for v2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Glenn Eggleton",
+      "email": "geggleto@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Geggleto\\Rest\\" : "src"
+    }
+  },
+  "require": {
+    "illuminate/database": "^5.2",
+    "slim/slim" : "^2.6"
+  }
+}
